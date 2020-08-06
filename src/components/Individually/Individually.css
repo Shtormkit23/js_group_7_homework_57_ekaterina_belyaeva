@@ -1,0 +1,90 @@
+.input-block-2{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Individually{
+    width: 500px;
+    margin: 15px 0;
+}
+
+.input-name{
+    height: 20px;
+    margin-left: 17px;
+}
+
+.input-price{
+    height: 20px;
+    width: 45px;
+    margin: 0 10px;
+}
+
+.delete{
+    outline: none;
+}
+
+p{
+    margin: 0 10px;
+    padding-top: 7px;
+}
+
+.addPeople{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.addPeople {
+    position: relative;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: 1px 11px;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow: 0 1px rgba(255,255,255,.2) inset, 0 3px 5px rgba(0,1,6,.5), 0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+.addPeople:hover:not(:active) {
+    background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+.addPeople:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+            0 0 1px rgba(0,0,0,.5) inset,
+            0 2px 3px rgba(0,0,0,.5) inset,
+            0 1px 1px rgba(255,255,255,.1);
+}
+
+.button28 {
+    position: relative;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 3px 5px rgba(0,1,6,.5),
+            0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+.button28:hover:not(:active) {
+    background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+.button28:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+            0 0 1px rgba(0,0,0,.5) inset,
+            0 2px 3px rgba(0,0,0,.5) inset,
+            0 1px 1px rgba(255,255,255,.1);
+}
